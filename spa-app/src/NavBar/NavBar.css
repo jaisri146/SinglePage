@@ -1,0 +1,134 @@
+.nav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+  
+   .menu .l1 {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 28px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+  .menu .l2 {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 28px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+   .menu .l1 > span{
+    color: rgb(250, 84, 28);
+    font-size: 39px;
+  }
+  .menu .l1{
+    margin-top: -25px;
+    padding-top: 35px;
+  }
+  .logo .logos {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 15%;
+    padding-top: 13px;
+  }
+  .logo .logos > span{
+      color: rgb(250, 84, 28);
+      font-size: 45px;
+  }
+  .m1:hover {
+    color: rgb(99, 96, 96);
+  }
+  
+  .search-container {
+      float: right;
+      display: block;
+      
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .side-menu{
+        float: left;
+        display: block;
+        margin-left: 10%;
+    }
+    .side-menu .m1{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 600;
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .side-menu .m1:hover{
+        color: rgb(202, 202, 202);
+        
+      }
+      /* .nav .side-menu .l1{
+        border-right: 1px solid rgb(233, 225, 225);
+        margin-right: 18px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        height: 30px;
+      } */
+      .button1 {
+        background-color: white; /* Green */
+        border: none;
+        color: rgb(17, 16, 16);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: 1px solid gainsboro;
+      }
+      .button2 {
+        background-color: red; /* Green */
+        border: none;
+        color: rgb(12, 12, 12);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 26px 7px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: 1px solid red;
+      }
+      .navbar{
+    background-color: white;
+}
+  
+.navbar.nav{
+    background-color: #ffffff;
+    opacity: 0.7;
+    
+}
+.navbar.nav.menu.l1{
+  color: black;
+}
