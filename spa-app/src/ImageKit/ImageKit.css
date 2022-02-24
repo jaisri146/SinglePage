@@ -1,0 +1,62 @@
+.kit { 
+    margin-bottom: 40%;
+    margin-top: -5%;
+    position: relative; 
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://zone-assets-api.vercel.app/assets/images/home/for_designer.jpg');
+    background-size: cover;
+}
+
+.kit::before {
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: rgba(22, 28, 36, 0.8);
+}
+.kit-text{
+    position: absolute;
+}
+.kit-text h4{
+    color: #919EAB;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: -5%;
+    text-align: center;
+    margin-left: -5%;
+}
+.kit-text h1{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: -5px;
+}
+.kit-text a{
+    background-color: #FA541C;
+    border: none;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 3%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .kit-text a span{
+      padding-left: 8px;
+      font-size: 18px;
+  }

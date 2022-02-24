@@ -1,0 +1,64 @@
+.prch { 
+    margin-bottom: 5%;
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.onely.com/wp-content/uploads/blog/2021/responsive-web-design/0-responsive-web-design-hero-image.jpg');
+    background-size: cover;
+}
+
+.prch::before {
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: rgba(22, 28, 36, 0.8);
+}
+.prch-text{
+    position: absolute;
+}
+.prch-text h4{
+    color: #919EAB;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -5%;
+    text-align: center;
+    margin-left: -5%;
+}
+.prch-text h1{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin-top: -10%;
+}
+.prch-text a{
+    background-color: #FA541C;
+    border: none;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 3%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .prch-text a span{
+      padding-left: 8px;
+      font-size: 18px;
+  }
+  .prch-text a:hover{
+    background-color: #c3390c;
+  }

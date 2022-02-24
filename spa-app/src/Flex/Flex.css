@@ -26,10 +26,10 @@
   background-color: #212B36;
   border: none;
   color: white;
-  padding-left: 3%;
-  padding-right: 13%;
-  padding-top: 4%;
-  padding-bottom: -2.5%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -37,11 +37,11 @@
   font-weight: bold;
   cursor: pointer;
   border-radius: 8px;
-  margin-right: 52%;
+  margin-right: 45%;
   margin-top: 5%;
 }
 .grid-item1 a span{
-  margin-left: 111%;
+  padding-left: 10px;
   font-size: 18px;
 }
   .grid-item2 img{

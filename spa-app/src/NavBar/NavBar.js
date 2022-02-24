@@ -20,14 +20,14 @@ const NavBar = () =>{
                 <a href="#" className='logos'>ZONE<span>.</span></a>
             </div>
             <div className='menu'>
-                <a href="#home" className='l1'><span>.</span>Home</a>
-                <a href="#news" className='l2'>Components</a>
-                <a href="#contact" className='l2'>Pages</a>
-                <a href="#about" className='l2'>Documentations</a>
+                <a href="#" className='l1' target="_self"><span>.</span>Home</a>
+                <a href="https://zone-ui.vercel.app/components-ui/" className='l2' target="_self">Components</a>
+                <a href="https://zone-ui.vercel.app/components-ui/" className='l2' target="_self">Pages</a>
+                <a href="https://zone-docs.vercel.app/introduction" className='l2' target="_self">Documentations</a>
             </div>
             <div className='side-menu'>
                 <a href="#contact" className='m1'><AiOutlineSearch /></a>
-                <a href="#contact" className='m1'><VscGlobe /></a>
+                <a href="#contact" className='m2'><VscGlobe /></a>
                 <button class="button1">Green</button>
                 <button class="button2">Blue</button>
             </div>

@@ -85,6 +85,21 @@
         color: rgb(202, 202, 202);
         
       }
+      .side-menu .m2{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 600;
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .side-menu .m2:hover{
+        color: rgb(202, 202, 202);
+        
+      }
       /* .nav .side-menu .l1{
         border-right: 1px solid rgb(233, 225, 225);
         margin-right: 18px;
@@ -104,7 +119,10 @@
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 10px;
-        border: 1px solid gainsboro;
+        border: 1px solid rgb(189, 184, 184);
+      }
+      .button1:hover{
+        border: 1px solid rgb(87, 85, 85);
       }
       .button2 {
         background-color: red; /* Green */
@@ -119,6 +137,10 @@
         cursor: pointer;
         border-radius: 10px;
         border: 1px solid red;
+      }
+      .button2:hover{
+        background-color: rgb(167, 9, 9);
+        border: 1px solid rgb(167, 9, 9);
       }
       .navbar{
     background-color: white;
