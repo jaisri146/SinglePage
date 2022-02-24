@@ -1,0 +1,82 @@
+.grid-containerjs {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-left: 13%;
+    margin-top: -35%;
+    margin-bottom: -130px;
+  }
+  
+  .grid-itemjs1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+  }
+  .grid-itemjs2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .interface{
+      text-align: left;
+      justify-content: center;
+      line-height: 1.66666;
+      font-size: 0.75rem;
+      color: #919EAB;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 5%;
+  }
+  .flexiable{
+      text-align: left;
+      justify-content: center;
+      font-weight: 700;
+      line-height: 1.3333333333333333;
+      font-size: 2.5rem;
+  }
+  .preset{
+      text-align: left;
+      justify-content: center;
+      line-height: 1.75;
+      font-size: 55%;
+      font-weight: 600;
+      color: #919EAB;
+      margin-top: -15px;
+  }
+  .collect{
+      text-align: left;
+      justify-content: center;
+      line-height: 1.75;
+      font-size: 55%;
+      font-weight: 600;
+      color: #919EAB;
+      margin-top: -8%;
+  }
+  .grid-itemjs1 .box {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    background-color: transparent;
+    color: rgb(2, 2, 2);
+    padding: 12px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: -17%;
+    margin-right: 30%;
+    cursor: pointer;
+    border-radius:8px;
+  }
+  .grid-itemjs1 .box span{
+    padding-left: 5px;
+    font-size: 10px;
+  }
+  .grid-itemjs1 .box:hover {
+    background-color: rgba(213, 218, 223, 0.32);
+    border: 1px solid black;
+  }
+  

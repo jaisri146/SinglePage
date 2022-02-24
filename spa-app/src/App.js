@@ -10,12 +10,14 @@ import GridPlan from './GridPlan/GridPlan';
 import Template from './Template/Template';
 import PurchaseWebsite from './PurchaseWebsite/PurchaseWebsite';
 import Footer from './Footer/Footer';
+import CustomizeMenu from './CustomizeMenu/CustomizeMenu';
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Flex />
       <ProductDetail />
+      <CustomizeMenu />
       <Feature />
       <ImageKit />
       <PricingPlan />
