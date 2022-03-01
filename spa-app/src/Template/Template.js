@@ -3,7 +3,6 @@ import './Template.css';
 import {FaChevronRight} from 'react-icons/fa';
 const Template = () =>{
     return(
-        <>
           <div class="grid-container5">
             <div className="grid1">
                 <h4>PERFECT COMBINATION</h4>
@@ -15,7 +14,6 @@ const Template = () =>{
                 <img src="https://zone-assets-api.vercel.app/assets/images/home/minimal_dashboard.png" />
             </div>
           </div>
-        </>
     )
 }
 export default Template;

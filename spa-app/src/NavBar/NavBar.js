@@ -28,8 +28,8 @@ const NavBar = () =>{
             <div className='side-menu'>
                 <a href="#contact" className='m1'><AiOutlineSearch /></a>
                 <a href="#contact" className='m2'><VscGlobe /></a>
-                <button class="button1">Green</button>
-                <button class="button2">Blue</button>
+                <button class="button1">Join Us</button>
+                <button class="button2">Buy Now</button>
             </div>
           </div>
 

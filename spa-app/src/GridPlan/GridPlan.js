@@ -3,9 +3,11 @@ import './GridPlan.css';
 import {BsCheckCircle} from 'react-icons/bs';
 import {BsXCircle} from 'react-icons/bs';
 import {FaChevronRight} from 'react-icons/fa';
+import PricingPlan from '../PricingPlan/PricingPlan';
 const GridPlan = () =>{
     return(
         <>
+          <PricingPlan heading={"PRICING PLANS"} subHeading={"The Right Plan"} subHeadingFirst={"For Your Business"} planInfo={"Choose the perfect plan for your needs. Always flexible to grow"}/>
           <div class="grid-container4">
             <div class="grid-itemp">
                <h6>STANDARD<span>$<sub>69</sub></span></h6>

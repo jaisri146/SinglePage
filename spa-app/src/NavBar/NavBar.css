@@ -5,9 +5,10 @@
   }
   
    .menu .l1 {
+    font-family: Poppins, sans-serif;
     float: left;
     display: block;
-    color: black;
+    color: rgb(95, 94, 94);
     text-align: center;
     text-decoration: none;
     font-size: 15px;
@@ -17,10 +18,14 @@
     padding-top: 35px;
     padding-bottom: 10px;
   }
+  .menu .l1:hover{
+    color: rgb(184, 184, 184);
+  }
   .menu .l2 {
+    font-family: Poppins, sans-serif;
     float: left;
     display: block;
-    color: black;
+    color: rgb(95, 94, 94);
     text-align: center;
     text-decoration: none;
     font-size: 15px;
@@ -29,6 +34,9 @@
     padding-right: 30px;
     padding-top: 35px;
     padding-bottom: 10px;
+  }
+  .menu .l2:hover{
+    color: rgb(184, 184, 184);
   }
    .menu .l1 > span{
     color: rgb(250, 84, 28);
@@ -44,10 +52,11 @@
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bolder;
-    padding-left: 15%;
-    padding-top: 13px;
+    padding-left: 13%;
+    padding-top: 9px;
+    font-family: Poppins, sans-serif;
   }
   .logo .logos > span{
       color: rgb(250, 84, 28);
@@ -71,6 +80,7 @@
         margin-left: 10%;
     }
     .side-menu .m1{
+      font-family: Poppins, sans-serif;
         color: black;
         text-align: center;
         text-decoration: none;
@@ -86,6 +96,7 @@
         
       }
       .side-menu .m2{
+        font-family: Poppins, sans-serif;
         color: black;
         text-align: center;
         text-decoration: none;
@@ -108,14 +119,16 @@
         height: 30px;
       } */
       .button1 {
+        font-family: Poppins, sans-serif;
         background-color: white; /* Green */
         border: none;
-        color: rgb(17, 16, 16);
+        color: black;
         padding: 10px 20px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+        font-weight: bold;
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 10px;
@@ -125,9 +138,11 @@
         border: 1px solid rgb(87, 85, 85);
       }
       .button2 {
-        background-color: red; /* Green */
+        font-family: Poppins, sans-serif;
+        background-color: rgb(250, 84, 28); /* Green */
         border: none;
-        color: rgb(12, 12, 12);
+        font-weight: bold;
+        color: white;
         padding: 10px 20px;
         text-align: center;
         text-decoration: none;
